@@ -1,0 +1,238 @@
+[
+  {
+    "adapter": "UniswapV3",
+    "arguments": {
+      "router": "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+    },
+    "pools": [
+      {
+        "parameters": {
+          "token0": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+          "token1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "fee": "0.01"
+        },
+        "tokens": ["0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]
+      },
+      {
+        "parameters": {
+          "token0": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+          "token1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "fee": "0.01"
+        },
+        "tokens": ["0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]
+      },
+      {
+        "parameters": {
+          "token0": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "token1": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "fee": "0.01"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0xdac17f958d2ee523a2206206994597c13d831ec7"]
+      },
+      {
+        "parameters": {
+          "token0": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "token1": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "fee": "0.01"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      },
+      {
+        "parameters": {
+          "token0": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "token1": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "fee": "0.01"
+        },
+        "tokens": ["0xdac17f958d2ee523a2206206994597c13d831ec7", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      }
+    ]
+  },
+  {
+    "adapter": "CurveV1 StableNg",
+    "arguments": {},
+    "pools": [
+      {
+        "parameters": {
+          "targetAddress": "0x9804C30875127246AC92D72D5CDF0630aA356861",
+          "lpToken": "0x9804C30875127246AC92D72D5CDF0630aA356861",
+          "basePool": "0x0000000000000000000000000000000000000000"
+        },
+        "tokens": ["0x4274cD7277C7bb0806Bd5FE84b9aDAE466a8DA0a", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "0x9804C30875127246AC92D72D5CDF0630aA356861"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743",
+          "lpToken": "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743",
+          "basePool": "0x0000000000000000000000000000000000000000"
+        },
+        "tokens": ["0x853d955aCEf822Db058eb8505911ED77F175b99e", "0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x02950460E2b9529D0E00284A5fA2d7bDF3fA4d72",
+          "lpToken": "0x02950460E2b9529D0E00284A5fA2d7bDF3fA4d72",
+          "basePool": "0x0000000000000000000000000000000000000000"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "0x02950460E2b9529D0E00284A5fA2d7bDF3fA4d72"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x3cef1afc0e8324b57293a6e7ce663781bbefbb79",
+          "lpToken": "0x3cef1afc0e8324b57293a6e7ce663781bbefbb79",
+          "basePool": "0x0000000000000000000000000000000000000000"
+        },
+        "tokens": ["0x9D39A5DE30e57443BfF2A8307A4256c8797A3497", "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD", "0x3cef1afc0e8324b57293a6e7ce663781bbefbb79"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x00836Fe54625BE242BcFA286207795405ca4fD10",
+          "lpToken": "0x00836Fe54625BE242BcFA286207795405ca4fD10",
+          "basePool": "0x0000000000000000000000000000000000000000"
+        },
+        "tokens": ["0xdac17f958d2ee523a2206206994597c13d831ec7", "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD", "0x00836Fe54625BE242BcFA286207795405ca4fD10"]
+      }
+    ]
+  },
+  {
+    "adapter": "ERC4626",
+    "arguments": {},
+    "pools": [
+      {
+        "parameters": {
+          "vault": "0x19Ebd191f7A24ECE672ba13A302212b5eF7F35cb"
+        },
+        "tokens": ["0x19ebd191f7a24ece672ba13a302212b5ef7f35cb", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      },
+      {
+        "parameters": {
+          "vault": "0xa62b204099277762d1669d283732dcc1b3aa96ce"
+        },
+        "tokens": ["0xa62b204099277762d1669d283732dcc1b3aa96ce", "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"]
+      },
+      {
+        "parameters": {
+          "vault": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"]
+      },
+      {
+        "parameters": {
+          "vault": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+        },
+        "tokens": ["0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD", "0xdC035D45d973E3EC169d2276DDab16f1e407384F"]
+      }
+    ]
+  },
+  {
+    "adapter": "FluidDex",
+    "arguments": {},
+    "pools": [
+      {
+        "parameters": {
+          "targetAddress": "0xf063BD202E45d6b2843102cb4EcE339026645D4a"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0xdac17f958d2ee523a2206206994597c13d831ec7"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x667701e51B4D1Ca244F17C78F7aB8744B4C99F9B"
+        },
+        "tokens": ["0xdac17f958d2ee523a2206206994597c13d831ec7", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0xea734B615888c669667038D11950f44b177F15C0"
+        },
+        "tokens": ["0xdac17f958d2ee523a2206206994597c13d831ec7", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x9f294BF3201533B652aFb6B10c0385972C28a16f"
+        },
+        "tokens": ["0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]
+      },
+
+      {
+        "parameters": {
+          "targetAddress": "0x862FC0A67623a4E6f0776103340836c91728B06D"
+        },
+        "tokens": ["0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f", "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0xdE632C3a214D5f14C1d8ddF0b92F8BCd188fee45"
+        },
+        "tokens": ["0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f", "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0x1DD125C32e4B5086c63CC13B3cA02C4A2a61Fa9b"
+        },
+        "tokens": ["0x9D39A5DE30e57443BfF2A8307A4256c8797A3497", "0xdac17f958d2ee523a2206206994597c13d831ec7"]
+      },
+      {
+        "parameters": {
+          "targetAddress": "0xDd5F2AFab5Ae5484339F9aD40FB4d51Fc5c96be3"
+        },
+        "tokens": ["0x9D39A5DE30e57443BfF2A8307A4256c8797A3497", "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f"]
+      }
+    ]
+  },
+  {
+    "adapter": "Pendle Router",
+    "arguments": {
+      "router": "0x888888888889758F76e7103c6CbF23ABbF58F946"
+    },
+    "pools": [
+      {
+        "parameters": {
+          "marketAddress": "0xf4c449d6a2d1840625211769779ada42857d04dd",
+          "tokenIn": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+          "tokenOut": "0xf3f491e5608f8b8a6fd9e9d66a4a4036d7fd282c"
+        },
+        "tokens": ["0xa62b204099277762d1669d283732dcc1b3aa96ce", "0xf3f491e5608f8b8a6fd9e9d66a4a4036d7fd282c"]
+      },
+      {
+        "parameters": {
+          "marketAddress": "0x8af9872eee05c7ca1c24295426e4d71b4af5b559",
+          "tokenIn": "0x2e3c5e514eef46727de1fe44618027a9b70d92fc",
+          "tokenOut": "0xdb63cfad2fe43132606cfef60c8ca3468c487677"
+        },
+        "tokens": ["0x2e3c5e514eef46727de1fe44618027a9b70d92fc", "0xdb63cfad2fe43132606cfef60c8ca3468c487677"]
+      },
+      {
+        "parameters": {
+          "marketAddress": "0x4708e55da780a953fded696cecb0e19164ba72f4",
+          "tokenIn": "0x19ebd191f7a24ece672ba13a302212b5ef7f35cb",
+          "tokenOut": "0xf580cf6b26251541f323bbda1f31cc8f91a0ca78"
+        },
+        "tokens": ["0x19ebd191f7a24ece672ba13a302212b5ef7f35cb", "0xf580cf6b26251541f323bbda1f31cc8f91a0ca78"]
+      },
+      {
+        "parameters": {
+          "marketAddress": "0x6d98a2b6cdbf44939362a3e99793339ba2016af4",
+          "tokenIn": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "tokenOut": "0xbc6736d346a5ebc0debc997397912cd9b8fae10a"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0xbc6736d346a5ebc0debc997397912cd9b8fae10a"]
+      },
+      {
+        "parameters": {
+          "marketAddress": "0x4eaa571eafcd96f51728756bd7f396459bb9b869",
+          "tokenIn": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "tokenOut": "0x62c6e813b9589c3631ba0cdb013acdb8544038b7"
+        },
+        "tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x62c6e813b9589c3631ba0cdb013acdb8544038b7"]
+      },
+
+      {
+        "parameters": {
+          "marketAddress": "0x577aff6ddad1d25ee18fee16de7037de44f2f5e8",
+          "tokenIn": "0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94",
+          "tokenOut": "0x2d6361c8a70af5a415e39c0f916133774f7f0c65"
+        },
+        "tokens": ["0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94", "0x2d6361c8a70af5a415e39c0f916133774f7f0c65"]
+      }
+    ]
+  }
+]
